@@ -1,50 +1,119 @@
 <!DOCTYPE html>
-<html lang="en" class="text-gray-900 font-arial">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Completa y Responsive</title>
-    <!-- Enlace al CDN de Tailwind CSS -->
+    <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="h-full bg-gray-100 text-white flex flex-col">
-    <nav class="bg-gray-600 text=white p-4">
-        <div class=" flex justify-between items-center">
-            <p> Cities in the world</p>
-            <div class="space-x-4">
-                <p>Home - About - Contact</p>
+    <br>
+    <div class="h-full bg-gray-100 text-white flex flex-col">
+        <nav class="px-4 py-4 bg-gray-600 text=white h-full flex items-center justify-between">
+            <p class="px-4 text-white text-5xl"> Cities in the world</p>
+            <p class="px-4 text-white">Home - About - Contact</p>
+        </nav>
+        <header class="bg-gray-200 py-8">
+            <div class="container mx-auto text-center">
+                <h1 class="text-4xl font-bold text-black">The most popular city</h1>
             </div>
-        </div>
-    </nav>
-    <header class="bg-gray-200 py-8">
-        <div class="container mx-auto text-center">
-            <h1 class="text-4xl font-bold text-black">The most popular city</h1>
-        </div>
-    </header>
-    <main class="flex-1 container mx-auto py-8 grid grid-cols-6 gap-6">
-        <div class="bg-white p-3  ">
-            <h3 class="text-xl font-semibold mb-3"></h3>
-            <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum mollitia in vitae facilis placeat perspiciatis reprehenderit ipsa distinctio illo, autem fugit, laborum repellat dolorum eius maxime excepturi sit soluta! Veritatis..</p>
-        </div>
-        <div class="bg-white p-6">
-            <h3 class="text-xl font-semibold mb-3"></h3>
-            <p class="text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur laborum aliquid eveniet pariatur aut tempora unde reiciendis ratione dignissimos laudantium, quidem in labore velit autem reprehenderit. Incidunt consectetur molestias quod?.</p>
-        </div>
-        <div class="bg-white p-6">
-            <h3 class="text-xl font-semibold mb-3"></h3>
-            <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maxime laboriosam architecto sapiente. Saepe autem laborum voluptates. Sapiente, iste! Obcaecati nihil cupiditate, dolore reprehenderit totam suscipit facilis rerum nobis laboriosam!.</p>
-        </div>
-        <div class="bg-white p-6">
-            <h3 class="text-xl font-semibold mb-3"></h3>
-            <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ea sit reprehenderit eius quam cum nihil tempora dignissimos incidunt sequi! Repellat possimus molestiae consequatur ipsum voluptatem magnam facere iure corrupti!.</p>
-        </div>
-    </main>
-    <footer class="bg-gray-600 text=white text-white py-4">
-        <div class="container mx-auto text-center">
-            <hr class="border-t-2 border-white my-4">
-            <p>&copy; ©2021 Company, Inc</p>
-        </div>
-    </footer>
+        </header>
+            <div id="aside" class="px-2 border border-black mx-auto w-1/6">
+                <p class="py-1 text-black">Ranking most visited</p>
+                <div class="container mx-100">
+                <ul class="grid gap-4 text-end mb-2">
+                    <li class="px-2 py-4 bg-gray-400 font-bold text-black">New York</li>
+                    <li class="px-2 py-4 bg-gray-400 font-bold text-black">Paris</li>
+                    <li class="px-2 py-4 bg-gray-400 font-bold text-black">Tokyo</li>
+                    <li class="px-2 py-4 bg-gray-400 font-bold text-black">London</li>
+                    <li class="px-2 py-4 bg-gray-400 font-bold text-black">Japan</li>
+                    <li class="px-2 py-4 bg-gray-400 font-bold text-black mb-3">Italy</li>
+                </ul>
+                 </div>
+            </div>
+        <table class="w-2/3 border-collapse border-separate border-spacing-4 text-sm gap-5">   
+            <tr>
+                <td class="border border-black"> 
+                    <div class="bg-gray-400 h-32 mb-4"></div>
+                    <p class="py-2 px-2 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a congue massa, eu hendrerit mauris.</p>
+                    <div class="flex flex-col h-full justify-end"></div>
+                    <div class="px-6 py-4 h-8 w-20 bg-gray-300 rounded-full self-end mb-4 mr-4"></div>
+                </td>
+                    <td class="border border-black">    
+                    <div class="bg-gray-400 h-32 mb-4"></div>
+                    <p class="py-2 px-2 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a congue massa, eu hendrerit mauris.</p>
+                    <div class="flex flex-col h-full justify-end"></div>
+                    <div class="px-6 py-4 h-8 w-20 bg-gray-300 rounded-full self-end mb-4 mr-4"></div>
+                     </div>
+                </td> 
+                <td class="border border-black"> 
+                    <div class="bg-gray-400 h-32 mb-4"></div>
+                    <p class="py-2 px-2 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a congue massa, eu hendrerit mauris.</p>
+                    <div class="flex flex-col h-full justify-end">
+                    <div class="px-6 py-4 h-8 w-20 bg-gray-300 rounded-full self-end mb-4 mr-4"></div>
+                    </div>
+                </td>  
+            </tr>
+            <tr>
+                <td class="border border-black">  
+                    <div class="bg-gray-400 h-32 mb-4"></div>
+                    <p class="py-2 px-2 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a congue massa, eu hendrerit mauris.</p>
+                    <div class="flex flex-col h-full justify-end">
+                    <div class="px-6 py-4 h-8 w-20 bg-gray-300 rounded-full self-end mb-4 mr-4"></div>
+                    </div>
+                </td>  
+                <td class="border border-black">  
+                    <div class="bg-gray-400 h-32 mb-4"></div>
+                    <p class="py-2 px-2 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a congue massa, eu hendrerit mauris.</p>
+                    <div class="flex flex-col h-full justify-end">
+                    <div class="px-6 py-4 h-8 w-20 bg-gray-300 rounded-full self-end mb-4 mr-4"></div>
+                    </div>
+                </td>  
+                <td class="border border-black">  
+                    <div class="bg-gray-400 h-32 mb-4"></div>
+                    <p class="py-2 px-2 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a congue massa, eu hendrerit mauris.</p>
+                    <div class="flex flex-col h-full justify-end">
+                    <div class="px-6 py-4 h-8 w-20 bg-gray-300 rounded-full self-end mb-4 mr-4"></div>
+                    </div>
+                </td> 
+            </tr>
+        </table>
+    </div>
+    <div id="bottom" class="py-2 bg-gray-400 flex items-center justify-center">
+          <p class="text-xl py-2 text-black">Most Popular Restaurant</p>
+    </div>    
+    <div id="bottom" class="text-sm text-center px-8 bg-gray-400 flex items-center justify-between">
+        <div class="px-8 flex flex-col items-center">
+            <div class="w-20 h-20 bg-red-500 rounded-full"></div>
+            <p class="py-4 text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>  
+        <div class="px-8 flex flex-col items-center">
+            <div class="w-20 h-20 bg-red-500 rounded-full"></div>
+            <p class="py-4 text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div> 
+        <div class="px-8 flex flex-col items-center">
+            <div class="w-20 h-20 bg-red-500 rounded-full"></div>
+            <p class="py-4 text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div> 
+        <div class="px-8 flex flex-col items-center">
+            <div class="w-20 h-20 bg-red-500 rounded-full"></div>
+            <p class="py-4 text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div> 
+    </div>
+    <hr class="border-black px-4 w-5/6 mx-auto mt-8">
+        <div id="footer" class="py-2 flex place-items-start justify-between  ">
+            <div class="w-10 h-10 bg-gray-300 "></div>
+            <p class="text-black ml-0">© 2021 Company, Inc</p>
+            <div class="flex justify-end">
+                <img src="./Bootstraps/Bootstraps/location_city.png"></img>
+                <img src="./Bootstraps/Bootstraps/opacity.png"></img>
+                <img src="./Bootstraps/Bootstraps/City Railway Station.png"></img>
+            </div>
+        </div> 
 </body>
 </html>
+
+
+
+
 
